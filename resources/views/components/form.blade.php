@@ -56,7 +56,7 @@
                             <button type="submit" class="rounded-md bg-red-700 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-blue-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Generar</button>
                         </div>
                         <div>
-                            <x-btn>Descargar Ejemplo</x-btn>
+                            <x-btn>EjemploSUA</x-btn>
                         </div>
                     </div> 
                 </div>
