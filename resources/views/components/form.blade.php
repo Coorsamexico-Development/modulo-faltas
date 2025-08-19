@@ -15,7 +15,8 @@
                                     class="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6" 
                                     placeholder="Ingresa el Registro Patronal" 
                                     value=""
-                                    required/>
+                                    required
+                                    />
                                 </div>
                         </div>
                 </div>
@@ -30,7 +31,7 @@
                             class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
                             style="cursor:pointer;" 
                             value=""
-                            required 
+                            required
                             />
                         </div>
                 </div>
@@ -51,9 +52,11 @@
                 </div>
                 <div class="mt-9 flex items-center justify-end gap-x-6">
                     <div class="flex item-center gap-x-6"> 
-                        <!-- <a href="" class="text-sm font-semibold leading-8 text-gray-900 hover-red-400">Cancelar</a>  -->
                         <div>
                             <button type="submit" class="rounded-md bg-red-700 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-blue-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Generar</button>
+                        </div>
+                        <div>
+                            <x-btn>Descargar Ejemplo</x-btn>
                         </div>
                     </div> 
                 </div>
