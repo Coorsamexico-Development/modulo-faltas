@@ -1,9 +1,10 @@
 <form action="{{ route('generar') }}" method="POST" enctype="multipart/form-data">
   @csrf 
-  <div class="space-y-12">
+  <div class="space-y-12 mr-10">
         <div class="border-b border-gray-900/10 pb-12">
             <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
-                <div class="sm:col-span-4">
+                
+                <div class="sm:col-span-4 mr-10">
                     <label for="rfc" class="block text-sm/6 font-medium text-gray-900">Registro Patronal</label>
                         <div class="mt-2">
                             <div class="flex items-center rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600">
@@ -21,7 +22,7 @@
                         </div>
                 </div>
 
-                <div class="sm:col-span-4">
+                <div class="sm:col-span-4 mr-10">
                     <label for="mes" class="block text-sm/6 font-medium text-gray-900">Mes</label>
                         <div class="mt-2">
                             <input 
@@ -36,7 +37,7 @@
                         </div>
                 </div>
 
-                <div class="sm:col-span-4">
+                <div class="sm:col-span-4 mr-10">
                     <label for="archivo" class="block text-sm/6 font-medium text-gray-900">Archivo</label>
                         <div class="mt-2">
                             <input 
@@ -50,12 +51,13 @@
                             />
                         </div>
                 </div>
+
                 <div class="mt-9 flex items-center justify-end gap-x-6">
                     <div class="flex item-center gap-x-6"> 
                         <div>
-                            <button type="submit" class="rounded-md bg-red-700 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-blue-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Generar</button>
+                            <button type="submit" class="rounded-md bg-red-700  px-2 py-2 text-sm font-semibold text-white shadow-xs hover:bg-blue-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Generar</button>
                         </div>
-                        <div>
+                        <div class="mt-1">
                             <x-btn>EjemploSUA</x-btn>
                         </div>
                     </div> 
